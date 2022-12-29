@@ -1,0 +1,22 @@
+input:invalid {
+    animation: shake .3s;
+}
+
+@keyframes shake {
+    25% { transform: translateX(4px);}
+    50% { transform: translateX(-4px);}
+    75% { transform: translateX(4px);}
+}
+
+input {
+    font-size: 15px;
+    height: 50px;
+    width: 500px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 35%;
+}
+
+input:focus {
+    font-size: 20px;
+}
